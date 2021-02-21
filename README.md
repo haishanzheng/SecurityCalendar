@@ -2,6 +2,8 @@
 
 目前只做了2k屏幕的大屏展示。
 
+![Image of Yaktocat](screenshot.png)
+
 ## Author
 
 https://dog.xmu.edu.cn
