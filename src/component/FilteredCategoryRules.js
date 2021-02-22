@@ -13,9 +13,9 @@ export default class DueDateTable extends React.Component {
     render() {
         return (
             <Card title={this.state.title}>
-                {this.state.categories.map((category, index) => (
+                {this.state.categories.map((category) => (
                     <List
-                        key={index}
+                        key={category.id}
                         header={<div>{category.title}</div>}
                         footer={<div></div>}
                         bordered

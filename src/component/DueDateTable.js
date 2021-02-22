@@ -15,18 +15,15 @@ export default class DueDateTable extends React.Component {
     render() {
         return (
             <Card title="通用关键时间点">
-                <Table pagination={false} dataSource={this.state.allDueDateRules}>
+                <Table pagination={false} dataSource={this.state.allDueDateRules} rowKey="id">
                     <Column
                         title="到期日"
-                        key="dueDate"
                         render={rule => DateTime.fromJSDate(rule.dueDate).toFormat('yyyy/LL/dd')} />
                     <Column
                         title="时间间隔"
-                        key="DateRelative"
                         render={rule => rule.isDivid ? '' : DateTime.fromJSDate(rule.dueDate).toRelative()} />
                     <Column
                         title="考核条目描述"
-                        key="title"
                         render={rule => rule.isDivid ? (
                             <>
                                 {rule.title}
@@ -37,7 +34,6 @@ export default class DueDateTable extends React.Component {
                     />
                     <Column
                         title="考核类别"
-                        key="category"
                         render={rule => rule.category.title} />
                 </Table>
             </Card>

@@ -16,8 +16,8 @@ export default class Rule extends React.Component {
                         <>
                             <br />
                             &nbsp;&nbsp;&nbsp;&nbsp;
-                    {this.state.rule.stricts.map(strict => (
-                                <span style={{ color: '#8c8c8c', fontSize: '5px' }}>
+                    {this.state.rule.stricts.map((strict) => (
+                                <span style={{ color: '#8c8c8c', fontSize: '5px' }} key={strict.id}>
                                     <Checkbox checked={strict.isDone} style={{ transform: 'scale(0.5)' }} />{strict.title}&nbsp;&nbsp;
                                 </span>
                             ))}
