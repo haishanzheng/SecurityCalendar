@@ -1,12 +1,5 @@
 import CustomData from './CustomData';
-
-const KaoHeId = {
-  idUnique: 0,
-  getNextUniqueId() {
-    this.idUnique++;
-    return this.idUnique;
-  }
-}
+import { nanoid } from 'nanoid';
 
 export default class KaoHe {
   constructor() {
@@ -15,17 +8,17 @@ export default class KaoHe {
 
 
   addCategory(title) {
-    this.nowCategory = {title: title, rules: [], id: KaoHeId.getNextUniqueId()};
+    this.nowCategory = {title: title, rules: [], id: nanoid()};
     this.categories.push(this.nowCategory);
   }
 
   addRule(r) {
-    this.nowRule = {...r, stricts: [], id: KaoHeId.getNextUniqueId()};
+    this.nowRule = {...r, stricts: [], id: nanoid()};
     this.nowCategory.rules.push(this.nowRule);
   }
 
   addStrict(s) {
-    this.nowRule.stricts.push({...s, id: KaoHeId.getNextUniqueId()});
+    this.nowRule.stricts.push({...s, id: nanoid()});
   }
 
   getAllDueDate() {

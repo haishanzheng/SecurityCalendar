@@ -12,7 +12,7 @@ export default class CustomData {
         kh.addStrict({ title: '签字', isDone: false });
         kh.addStrict({ title: '加盖公章', isDone: false });
         kh.addStrict({ title: '邮寄', isDone: false });
-        kh.addRule({ title: '2. ■■■■■■■■■■■■■■■■■■■■■■■', isSubmitWhenChange: true, isDone: true });
+        kh.addRule({ title: '2. ■■■■■■■■■■■■■■■■', isSubmitWhenChange: true, isDone: true });
         kh.addStrict({ title: '红头', isDone: false });
         kh.addStrict({ title: '加盖公章', isDone: false });
 
