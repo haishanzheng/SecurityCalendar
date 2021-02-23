@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/SecurityCalendar/static/css/main.7caa525e.chunk.css",
+    "main.js": "/SecurityCalendar/static/js/main.6233edaf.chunk.js",
+    "main.js.map": "/SecurityCalendar/static/js/main.6233edaf.chunk.js.map",
+    "runtime-main.js": "/SecurityCalendar/static/js/runtime-main.116f28e2.js",
+    "runtime-main.js.map": "/SecurityCalendar/static/js/runtime-main.116f28e2.js.map",
+    "static/css/2.1e58ee36.chunk.css": "/SecurityCalendar/static/css/2.1e58ee36.chunk.css",
+    "static/js/2.a17c35c3.chunk.js": "/SecurityCalendar/static/js/2.a17c35c3.chunk.js",
+    "static/js/2.a17c35c3.chunk.js.map": "/SecurityCalendar/static/js/2.a17c35c3.chunk.js.map",
+    "static/js/3.6b740683.chunk.js": "/SecurityCalendar/static/js/3.6b740683.chunk.js",
+    "static/js/3.6b740683.chunk.js.map": "/SecurityCalendar/static/js/3.6b740683.chunk.js.map",
+    "index.html": "/SecurityCalendar/index.html",
+    "static/css/2.1e58ee36.chunk.css.map": "/SecurityCalendar/static/css/2.1e58ee36.chunk.css.map",
+    "static/css/main.7caa525e.chunk.css.map": "/SecurityCalendar/static/css/main.7caa525e.chunk.css.map",
+    "static/js/2.a17c35c3.chunk.js.LICENSE.txt": "/SecurityCalendar/static/js/2.a17c35c3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.116f28e2.js",
+    "static/css/2.1e58ee36.chunk.css",
+    "static/js/2.a17c35c3.chunk.js",
+    "static/css/main.7caa525e.chunk.css",
+    "static/js/main.6233edaf.chunk.js"
+  ]
+}
