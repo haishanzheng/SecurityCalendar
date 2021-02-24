@@ -47,7 +47,7 @@ export default class App extends React.Component {
     });
 
     this.state = {
-      calendarEvents: calendarEvents,
+      calendarEvents,
       customDateRulesCategories: this.getFilteredCategory(
         (rule) => rule.isCustomDate
       ),
